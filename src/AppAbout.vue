@@ -11,6 +11,8 @@
 
       <div class="bodydiv">
         <div class="blurbBeginNoColour">
+          <p>This web portal is a work in progress and has not yet been launched. Information may not be accurate.</p>
+          <!--
           <p>This web portal shows the result of decentralised research into the relationships between Dutch
             universities
             and the fossil fuel industry. This project involves collaboration by a <b>coalition of local and national
@@ -64,12 +66,12 @@
               href="https://www.solid-sustainability.org/handbook" target="_blank">research handbook</a> and/or get in
             touch with one of the
             organisations above!</p>
-
+-->
         </div>
         <div class="blurbbegin">
           <h2 class="moveToMiddle" id="contact">Acknowledgements</h2>
 
-
+          <!--
           <div id="coalitionlogos" class="moveToMiddle">
             <a href="https://www.aria.org.uk/" target="_blank"><img src="./assets/logo_thumbs/logo_aria.png"
                 width="120"></a>
@@ -114,17 +116,19 @@
           <p>We thank <a href="https://www.ffisolutions.com/" target="_blank">FFI Solutions</a> for providing us with
             data
             on fossil fuel companies.</p>
+            -->
         </div>
         <div class="blurbBeginNoColour">
           <h2 class="moveToMiddle" id="related">Related initiatives</h2>
           <ul>
-            <li><a href="https://www.educationclimatecoalition.co.uk/">The Education Climate Coalition</a> is coordinating research into fossil ties in the UK.</li>
+            <li><a href="https://www.mappingfossilties.org/">The Mapping Fossil Ties Coalition</a> is coordinating research into fossil ties in the Netherlands.</li>
             <li><a href="https://www.campusclimatenetwork.org/ffr-campaign">Campus Climate Network</a>, formerly Fossil Free Research, has published reports into fossil fuel industry ties at universities in the US, Canada, UK and Singapore, and are currently investigating ties in North America.</li>
             <li>A new coalition is forming in Belgium to research fossil ties - contact us if you are interested (see below)</li>
             <li>The website <a href="https://www.worldwithoutfossilads.org/" target="_blank">World Without Fossil Ads</a>
             also tracks fossil fuel industry sponsorship and collaboration with education and cultural institutions,
             worldwide.
             </li>
+            <li><a href="https://ded1.co/how-we-do-it/database" target="_blank">dED</a> have a database of UK universities' military collaborations.</li>
           </ul>
         </div>
 

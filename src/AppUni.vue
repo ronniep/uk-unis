@@ -14,8 +14,8 @@ export default {
   },
   data() {
     return {
-            shortUni: 'TUD',
-            nameUni: 'TU Delft',
+            shortUni: 'ABE',
+            nameUni: 'University of Aberdeen',
         }
   }
 

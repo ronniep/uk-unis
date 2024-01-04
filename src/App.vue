@@ -2,11 +2,18 @@
   <div class="house">
     <div class="midcontainer">
       <MenuBar />
-      <InteractiveMap msg="" @select-uni="selectUni" />
+      <div class="titlediv">
+    <h1>How is UK academia tied to the fossil fuel industry?</h1>
+  </div>
+
+  <h3><b>Please note! This database is a work in progress and not yet publicly launched! There may be inaccuracies in the data.</b>
+  </h3>
+
       <div class="blurbbegin">
-        <h2>Database of ties between Dutch academia and the fossil fuel industry</h2>
-        <p>This web portal shows the ongoing decentralised research by a coalition of organisations into the
-          relationships between Dutch universities and research funding bodies, and the fossil fuel industry. The database
+        <h2>Database of ties between UK academia and the fossil fuel industry</h2>
+<p>
+          This web portal shows the ongoing decentralised research by a coalition of organisations into the
+          relationships between UK universities and research funding bodies, and the fossil fuel industry. The database
           shows different types of
           fossil ties per institution since the Paris Agreement (2015), such as (co-)funding of research and professors,
           sponsoring of students' studies and activities, presentations of the fossil fuel industry at career events or as
@@ -24,7 +31,7 @@
         <h2>Why map the ties between academia and the fossil fuel industry?</h2>
         <p>There has been increasing social scrutiny of the close ties between universities and the fossil fuel industry.
           For an informed discussion about whether fossil fuel companies, lobby organisations or research institutes
-          should be present on campus and in what capacity, we are documenting all current relationships between Dutch
+          should be present on campus and in what capacity, we are documenting all current relationships between UK
           universities and research funding bodies, and these companies.
         </p>
         <!--
@@ -51,10 +58,12 @@
       <div class="blurbbegin">
         <h2>About the coalition</h2>
         <p>This project involves collaboration by a <b>coalition of local and national
-            organisations</b>, together forming the 'Mapping Fossil Ties Coalition'. We support and coordinate
+            organisations</b>. We support and coordinate
           decentralised research into relationships between academia and the fossil fuel industry. We do this through
           decentralised information gathering on campuses, freedom of information (FOI) requests, and crowdsourcing.</p>
-        <div id="logos" class="moveToMiddle">
+          <!--
+
+          <div id="logos" class="moveToMiddle">
           <a href="https://endfossil.com/" target="_blank"><img class="thumb"
               :src="require('./assets/logo_thumbs/logo_EFO.png')" width="80"></a>
           <a href="https://gofossilfree.org/nl/" target="_blank"><img class="thumb"
@@ -74,7 +83,7 @@
           <a href="http://universityrebellion.nl/" target="_blank"><img class="thumb"
               :src="require('./assets/logo_thumbs/logo_UR.png')" width="80"></a>
         </div>
-
+-->
         <div class="moveToMiddle"><button class="blurbbegin" onclick="window.location.assign('./About.html')"
             type="button">Read more</button>
         </div>
@@ -93,10 +102,10 @@
             <p>
             Do you know of a fossil tie that's not on this website? 
             </p>
-              <button class="blurbbegin" onclick="window.open('https://framaforms.org/submit-information-about-a-relationship-between-a-university-and-fossil-fuel-company-1678282225')"
-            type="button">Submit information!</button>
+              <button class="blurbbegin" onclick="window.open('https://www.educationclimatecoalition.co.uk/contact-us')"
+            type="button">Tell us about it!</button>
           </div>
-          <div class="infoBox"><p>Are you from outside the Netherlands, and want to investigate fossil ties in your country?</p>
+          <div class="infoBox"><p>Are you from outside the UK, and want to investigate fossil ties in your country?</p>
             <button class="blurbbegin" onclick="window.open('mailto:info@solid-sustainability.org')"
             type="button">Get in touch!</button>
             </div>
@@ -112,14 +121,12 @@
 </template>
 
 <script>
-import InteractiveMap from './components/InteractiveMap.vue'
 import MenuBar from './components/MenuBar.vue'
 import './assets/css/main.css';
 
 export default {
   name: 'App',
   components: {
-    InteractiveMap,
     MenuBar
   },
   data() {

@@ -92,12 +92,11 @@ export default {
   },
   data() {
     return {
+      newsToDisplay: news.sort(this.compareFunction),
       arrCatFull: [{ shortCat: 'news', longCat: "news" }, { shortCat: 'opinion', longCat: "opinion" }, { shortCat: 'press release', longCat: "press release" }, { shortCat: 'article', longCat: "article" }, { shortCat: 'interview', longCat: "interview" }, { shortCat: 'kamervragen', longCat: "kamervragen" }, { shortCat: 'research', longCat: "research" }, { shortCat: 'cartoon', longCat: "cartoon" }, { shortCat: 'other', longCat: "other" }],
       desiredCat: ["news", "opinion", "press release", "article", "interview", "kamervragen", "research", "cartoon", "other"],
-      uniListFull: [{ shortUni: "NWO", longUni: "Dutch Research Council (NWO)" }, { shortUni: "EUR", longUni: "Erasmus Universiteit Rotterdam" }, { shortUni: "LU", longUni: "Universiteit Leiden" }, { shortUni: "OU", longUni: "Open Universiteit" }, { shortUni: "RUN", longUni: "Radboud Universiteit Nijmegen" }, { shortUni: "RUG", longUni: "Rijksuniversiteit Groningen" }, { shortUni: "TUD", longUni: "Technische Universiteit Delft" }, { shortUni: "TUe", longUni: "Technische Universiteit Eindhoven" }, { shortUni: "Til", longUni: "Tilburg University" }, { shortUni: "UM", longUni: "Maastricht University" }, { shortUni: "UT", longUni: "Universiteit Twente" }, { shortUni: "UU", longUni: "Universiteit Utrecht" }, { shortUni: "UvA", longUni: "Universiteit van Amsterdam" }, { shortUni: "VU", longUni: "Vrije Universiteit Amsterdam" }, { shortUni: "WUR", longUni: "Wageningen University & Research" }],
-      desiredUni: ["NWO", "EUR", "LU", "OU", "RUN", "RUG", "TUD", "TUe", "Til", "UM", "UT", "UU", "UvA", "VU", "WUR"],
-      newsToDisplay: news.sort(this.compareFunction)
-    }
+      uniListFull: [{shortUni: "ABE", longUni: "University of Aberdeen"}, {shortUni: "BAT", longUni: "University of Bath"}, {shortUni: "BRU", longUni: "Brunel University"}, {shortUni: "BHAM", longUni: "University of Birmingham"}, {shortUni: "BRI", longUni: "University of Bristol"}, {shortUni: "CAM", longUni: "University of Cambridge"}, {shortUni: "EDI", longUni: "University of Edinburgh"}, {shortUni: "EXE", longUni: "University of Exeter"}, {shortUni: "ICL", longUni: "Imperial College London"}, {shortUni: "GLA", longUni: "University of Glasgow"}, {shortUni: "HWU", longUni: "Heriot-Watt University"}, {shortUni: "LEE", longUni: "University of Leeds"}, {shortUni: "MAN", longUni: "Manchester University"}, {shortUni: "NOT", longUni: "University of Nottingham"}, {shortUni: "OXF", longUni: "Oxford University"}, {shortUni: "QMUL", longUni: "Queen Mary University of London"}, {shortUni: "RHU", longUni: "Royal Holloway University"}, {shortUni: "TEE", longUni: "Teesside"}, {shortUni: "UCL", longUni: "University College London"}, {shortUni: "UKRI", longUni: "UK Research and Innovation"}],
+      desiredUni: ["ABE", "BAT", "BRU", "BHAM", "BRI", "CAM", "EDI", "EXE", "ICL", "GLA", "HWU", "LEE", "MAN", "NOT", "OXF", "QMUL", "RHU", "TEE", "UCL", "UKRI"]    }
   },
   /* setup() {
      let newsToDisplay = news.sort(this.compareFunction)

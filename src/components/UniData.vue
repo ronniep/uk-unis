@@ -8,8 +8,9 @@
 
       <div id="profile" class="bodydiv">
         <h3>What relationships with fossil fuel companies are known so far:</h3>
-
-
+        
+        <h3><b>Please note! This database is a work in progress and not yet publicly launched! There may be inaccuracies in the data.</b>
+  </h3>
       <FaqExpandable>
         <template #header>
           Filter by type of relationship
@@ -85,10 +86,8 @@ export default {
       dataToDisplay: [],
       arrCatFull: [{ shortCat: 'funding', longCat: "(Co-)funding/supporting research (money or in kind)" }, { shortCat: 'influence', longCat: "Influence on research publication, patents, or results (including hindering publication)" }, { shortCat: 'mou', longCat: "Memorandum of Understanding (MoU) or other agreement" }, { shortCat: 'staff', longCat: "Staff/board members with additional (advisory) role for fossil(-related) company/organisation" }, { shortCat: 'chair', longCat: "Externally (partially-)financed research chair" }, { shortCat: 'bursary', longCat: "Sponsoring students' studies e.g. via bursaries or prizes" }, { shortCat: 'sponsor', longCat: "Sponsoring student or outreach activities or organisations" }, { shortCat: 'career', longCat: "Career event" }, { shortCat: 'job', longCat: "Exclusive job/internship opportunities" }, { shortCat: 'study', longCat: "Guest lecture, talk or other influence on programme of study" }, { shortCat: 'talk', longCat: "Discussion panels and talks not associated with a programme of study" }, { shortCat: 'alumni', longCat: "Alumni Network/other network" }, { shortCat: 'other', longCat: "Other form of relationship" }],
       desiredCat: ["(Co-)funding/supporting research (money or in kind)" , "Influence on research publication, patents, or results (including hindering publication)", "Memorandum of Understanding (MoU) or other agreement" , "Staff/board members with additional (advisory) role for fossil(-related) company/organisation" , "Externally (partially-)financed research chair", "Sponsoring students' studies e.g. via bursaries or prizes" , "Sponsoring student or outreach activities or organisations" , "Career event" , "Exclusive job/internship opportunities" ,  "Guest lecture, talk or other influence on programme of study" ,  "Discussion panels and talks not associated with a programme of study" , "Alumni Network/other network" , "Other form of relationship"],
-      uniListFull: [{ shortUni: "NWO", longUni: "Dutch Research Council (NWO)" }, { shortUni: "EUR", longUni: "Erasmus Universiteit Rotterdam" }, { shortUni: "LU", longUni: "Universiteit Leiden" }, { shortUni: "OU", longUni: "Open Universiteit" }, { shortUni: "RUN", longUni: "Radboud Universiteit Nijmegen" }, { shortUni: "RUG", longUni: "Rijksuniversiteit Groningen" }, { shortUni: "TUD", longUni: "Technische Universiteit Delft" }, { shortUni: "TUe", longUni: "Technische Universiteit Eindhoven" }, { shortUni: "Til", longUni: "Tilburg University" }, { shortUni: "UM", longUni: "Maastricht University" }, { shortUni: "UT", longUni: "Universiteit Twente" }, { shortUni: "UU", longUni: "Universiteit Utrecht" }, { shortUni: "UvA", longUni: "Universiteit van Amsterdam" }, { shortUni: "VU", longUni: "Vrije Universiteit Amsterdam" }, { shortUni: "WUR", longUni: "Wageningen University & Research" }],
-      desiredUni: ["NWO", "EUR", "LU", "OU", "RUN", "RUG", "TUD", "TUe", "Til", "UM", "UT", "UU", "UvA", "VU", "WUR"],
-
-    }
+      uniListFull: [{shortUni: "ABE", longUni: "University of Aberdeen"}, {shortUni: "BAT", longUni: "University of Bath"}, {shortUni: "BRU", longUni: "Brunel University"}, {shortUni: "BHAM", longUni: "University of Birmingham"}, {shortUni: "BRI", longUni: "University of Bristol"}, {shortUni: "CAM", longUni: "University of Cambridge"}, {shortUni: "EDI", longUni: "University of Edinburgh"}, {shortUni: "EXE", longUni: "University of Exeter"}, {shortUni: "ICL", longUni: "Imperial College London"}, {shortUni: "GLA", longUni: "University of Glasgow"}, {shortUni: "HWU", longUni: "Heriot-Watt University"}, {shortUni: "LEE", longUni: "University of Leeds"}, {shortUni: "MAN", longUni: "Manchester University"}, {shortUni: "NOT", longUni: "University of Nottingham"}, {shortUni: "OXF", longUni: "Oxford University"}, {shortUni: "QMUL", longUni: "Queen Mary University of London"}, {shortUni: "RHU", longUni: "Royal Holloway University"}, {shortUni: "TEE", longUni: "Teesside"}, {shortUni: "UCL", longUni: "University College London"}, {shortUni: "UKRI", longUni: "UK Research and Innovation"}],
+      desiredUni: ["ABE", "BAT", "BRU", "BHAM", "BRI", "CAM", "EDI", "EXE", "ICL", "GLA", "HWU", "LEE", "MAN", "NOT", "OXF", "QMUL", "RHU", "TEE", "UCL", "UKRI"]    }
   },
   props: {
     UniShort: String,

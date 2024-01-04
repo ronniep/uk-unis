@@ -11,6 +11,10 @@
       <div class="bodydiv">
 
 
+      <h3>
+        <b>Note! This FAQ is for the Dutch web portal and is in the process of being adapted for the UK web portal. Information may not be accurate!</b>
+      </h3>
+
         <div class="blurbbegin">
 
           <h2 class="groupHeader"> About this database</h2>
@@ -66,8 +70,8 @@
                 might use fossil fuels, such as Tata Steel or the aviation industry. We also do not consider other
                 polluting industries such as animal agriculture and shipping.
               </p>
-              <p>We look at universities (but not "<i>hogescholen</i>") in the Netherlands and at NWO, the Dutch Research
-                Council. We are interested in investigating other countries in the future.</p>
+              <p>We look at universities in the UK and at UK Research and Innovation, the UK research funding body. 
+                We are also investigating other countries such as the Netherlands, Germany and Belgium.</p>
               <p>We focus on fossil ties since the <a href="https://unfccc.int/process-and-meetings/the-paris-agreement"
                   target="_blank">Paris Agreement</a> in 2015, when countries committed to "pursuing efforts to limit the
                 [global] temperature increase to 1.5°C", with "developed countries... taking the lead by undertaking
@@ -97,7 +101,7 @@
               How do you ensure that privacy of academics weighs against public interest?
             </template>
             <template #default>
-              <p>While professors (<i>hoogleraren</i>) and university administration (e.g. deans, board members or
+              <p>While professors and university administration (e.g. deans, board members or
                 department heads) are responsible for the research projects they work on, PhD students and post-doctoral
                 researchers often have little choice or influence on external funding.</p>
 
@@ -128,8 +132,8 @@
             <template #default>
               <p>Click <a @click="createBibtex">here</a> to download a Bibtex citation, and <a
                   @click="createRistex">here</a> for RIS format.</p>
-              <p>In APA style you can cite us as: Mapping Fossil Ties Coalition (2023). <i>Database of Fossil Fuel
-                  Industry Ties in Dutch Academia</i>. Retrieved {date}, from www.mappingfossilties.org/Database.html</p>
+              <p>In APA style you can cite us as: Mapping Fossil Ties Coalition (2024). <i>Database of Fossil Fuel
+                  Industry Ties in UK Academia</i>. Retrieved {date}, from www.mappingfossilties.org/Database.html</p>
             </template>
           </FaqExpandable>
         </div>

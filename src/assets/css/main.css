@@ -1,7 +1,17 @@
+
+@font-face {
+  font-family: "M_PLUS_Rounded_1c";
+  /* src: url('../fonts/rubik/Rubik-VariableFont_wght.ttf'), url(../fonts/rubik/Rubik-Italic-VariableFont_wght.ttf); */
+  src: url('../fonts/M_PLUS_Rounded_1c/MPLUSRounded1c-Regular.ttf'), url('../fonts/M_PLUS_Rounded_1c/MPLUSRounded1c-Thin.ttf'), url('../fonts/M_PLUS_Rounded_1c/MPLUSRounded1c-Black.ttf'), url('../fonts/M_PLUS_Rounded_1c/MPLUSRounded1c-Bold.ttf'), url('../fonts/M_PLUS_Rounded_1c/MPLUSRounded1c-ExtraBold.ttf'), url('../fonts/M_PLUS_Rounded_1c/MPLUSRounded1c-Light.ttf'), url('../fonts/M_PLUS_Rounded_1c/MPLUSRounded1c-Medium.ttf'), ;
+}
+
+
+
 .house {
   background-color: hsl(36, 33%, 100%);;
   /*font-family: 'Courier New', Courier, monospace;*/
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /*font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
+  font-family: "M_PLUS_Rounded_1c";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -21,6 +31,8 @@ body {
   overflow-x: hidden;
   display: flex;
   flex-direction: column;
+  font-family: "M_PLUS_Rounded_1c";
+
 }
 
 footer{
@@ -29,14 +41,12 @@ footer{
   margin-top: auto;
   background-color: #0a4853 ;
   /*font-family: 'Courier New', Courier, monospace;*/
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /*font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #ffffff;
 
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 .profiles {
