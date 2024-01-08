@@ -24,3 +24,4 @@ pnpm-debug.log*
 
 # Other working files
 *.csv
+*.backup
